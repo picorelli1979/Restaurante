@@ -1,0 +1,79 @@
+body{ background-image: linear-gradient(45deg, green, black, green);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;}
+
+header{ color: white;
+        display: flex;
+        justify-content: space-around;
+        font-style: italic;}
+
+main{ 
+    display: flex;
+    justify-content: center;
+}
+
+a{ text-decoration: none;}
+
+a:hover{color: white;}
+
+h4{color: white;}
+
+p{color: white;}
+
+
+.Pedido{border: solid 5px white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        margin: 10px;
+        padding: 5px;        
+}
+.Sabores input{
+        width: 400px;
+        height: 30px;
+        display: grid;
+        margin: 10px;
+}
+
+.Borda{
+       display: flex;
+       justify-content: space-around;
+       font-size: 15px;
+}
+.Fatias{display: flex;
+        justify-content: space-around;
+        font-size: 15px;
+}
+
+.Pagamentos{display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.Cliente_Dados{
+               border: solid 5px white;
+               border-radius: 10px;
+               margin: 10px;
+               padding: 5px;
+
+}
+.Cliente_Dados input{ display: grid;
+                      width: 600px;
+                      height: 40px;
+                      margin: 20px;}
+.Butao_Pedido{
+             display: flex;
+             justify-content: end;
+}
+
+button{
+      font-size: 20px;
+      border-radius: 5px;
+      cursor: pointer;      
+}
+
+button:hover{
+      background-color: red;
+      color: white;}

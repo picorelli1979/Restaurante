@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO_PEDIDO</title>
+    <link rel="stylesheet" href="/static/pedido.css">
+</head>
+<body>
+
+    
+    <header>
+        <h1>|| PEDIDO ||</h1>
+        <h1>|| FICHA CLIENTE ||</h1>
+    </header>
+      
+    <main>   
+           <div class="Pedido">
+              <form action="">
+
+                <div class="Sabores">
+                    <h4>ESCOLHA ATÉ 4 SABORES:</h4>
+                    <input type="text" placeholder="SABOR 1">
+                    <input type="text" placeholder="SABOR 2">
+                    <input type="text" placeholder="SABOR 3">
+                    <input type="text" placeholder="SABOR 4">
+                </div>
+
+                 <div class="Borda">
+                    <h4>BORDA RECHEADA : </h4>
+                    <p>SIM</p>  <input type="radio" name="SIM" id="SIM">
+                    <p>NÃO</p>  <input type="radio" name="NÃO" id="NÃO">
+                 </div>
+
+                 <div class="Fatias">
+                    <h4>TAMANHOS : </h4>
+                    <p>PEQUENA</p>  <input type="radio" name="Pequena" id="Pizza_Pequena">
+                    <p>MÉDIA</p>  <input type="radio" name="Média" id="Pizza_Média">
+                    <p>GRANDE</p>  <input type="radio" name="Grande" id="Pizza_Grande">
+                    <p>FAMILIA</p>  <input type="radio" name="Familia" id="Pizza_Familia">
+                 </div>
+
+                 <div class="Pagamentos">
+                    <h4>QUAL A SUA FORMA DE PAGAMENTO ? :</h4>
+
+                    <p>CARTÃO</p> <input type="radio" name="Cartão" id="Cartão">
+                    <p>DINHEIRO</p>  <input type="radio" name="Dinheiro" id="Dinheiro">
+                    <p>PIX</p>  <input type="radio" name="Pix" id="Pix">
+                 </div>
+
+
+
+              </form>
+
+           </div>
+
+
+           <div class="Cliente_Dados">
+               <form action="">
+                  <h4>SEUS DADOS : </h4>
+                  <input type="text" placeholder="Seu Nome">
+                  <input type="email" name="Email" id="Email" placeholder="E-mail">
+                  <input type="text"placeholder="Telefone">
+                  <input type="text" placeholder="Endereço">
+                  <input type="text" placeholder="Ponto de Referência">
+               </form>
+            </div>
+
+      </main>
+
+      <div class="Butao_Pedido">
+        <button><a href="/cardapio/pagina_final">VALIDAR PEDIDO</a></button>
+      </div>
+
+</html>

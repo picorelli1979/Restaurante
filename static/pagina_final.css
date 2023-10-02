@@ -1,0 +1,26 @@
+body{ background-image: linear-gradient(45deg, green, black, green);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+}
+
+h1{ color: white;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+h2{ color: white;
+    font-style: italic;
+    font-size: 40px;
+}
+
+main{ display: grid;
+     margin:20px;
+}
+
+.Galeria1{display: flex;
+          margin: 10px;
+          text-align: center;}
+
+.Galeria2{ display: flex;
+           margin-top: 100px;}

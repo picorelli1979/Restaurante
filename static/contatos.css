@@ -1,0 +1,55 @@
+body{ background-image: linear-gradient(45deg, green, black, green);
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+}
+h1{color: white;
+   font-family: sans-serif;
+   font-style: italic;
+
+}
+
+h2{color: white;}
+
+header{ display: flex;
+        color: white;}
+
+
+main{ display: flex;
+      justify-content: space-around;}
+
+.Box1 img{width: 300px;
+    border-radius: 50%;}
+
+.Linkedin img{
+width: 70px;
+border-radius: 50%;
+}
+
+.GuitHub img{
+    width: 70px;
+    border-radius: 50%;
+}
+.Twiter img{
+    width: 70px;
+    border-radius: 0%;
+}
+
+.Facebook img{
+    width: 70px;
+    border-radius: 50%;
+
+}
+.Instagram img{
+    width: 70px;
+    border-radius: 50%;
+
+}
+
+footer{display: flex;
+       margin-top: 30px;
+       justify-content: space-around;
+       border: solid 2px white;
+       border-radius: 20px;
+       background-color: black;
+}

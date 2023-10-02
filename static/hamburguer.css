@@ -1,0 +1,64 @@
+body{ background-image: linear-gradient(45deg, green, black, green);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{ text-decoration: none;
+   color: black;
+}
+
+a:hover{color: white;}
+
+h1{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  font-style: italic;
+}
+
+.Galeria{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+}
+
+.Galeria img{
+      width: 400px;
+      height: 300px;
+      border: solid 5px white;
+      border-radius: 10px;
+      cursor: pointer;
+}
+
+.Galeria img:hover{
+    transform: scale(1.10);
+}
+
+.Galeria_Butoes{
+      display: flex;
+      margin-top: 10px;
+      padding: 10px;
+      justify-content: space-around;
+}
+
+button{
+      font-family: sans-serif;
+      font-size: large;
+      width: 200px;
+      height: 50px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px white;
+      cursor: pointer;
+}
+
+button:hover{
+     background-color: red;
+     color: white;
+}
+
+
